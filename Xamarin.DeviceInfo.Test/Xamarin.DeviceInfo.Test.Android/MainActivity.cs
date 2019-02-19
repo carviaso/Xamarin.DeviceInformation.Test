@@ -7,7 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace Xamarin.DeviceInfo.Test.Droid
+namespace Xamarin.DeviceInformation.Test.Droid
 {
     [Activity(Label = "Xamarin.DeviceInfo.Test", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

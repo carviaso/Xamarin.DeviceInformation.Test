@@ -4,11 +4,18 @@
              xmlns:local="clr-namespace:Xamarin.DeviceInfo.Test"
              x:Class="Xamarin.DeviceInfo.Test.MainPage">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Label Text="Devices:" x:Name="lblDevices" />
+        <Label Text="Manufaturer:" x:Name="lblManufacturer" />
+        <Label Text="Device Names:" x:Name="lblDevicesName" />
+        <Label Text="Version:" x:Name="lblDevicesVersion" />
+        <Label Text="Plataforms:" x:Name="lblPlataform" />
+        <Label Text="Idiom:" x:Name="lblIdiom" />
+        <Label Text="Devices Type:" x:Name="lblDevicesType" />
     </StackLayout>
 
 </ContentPage>

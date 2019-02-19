@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Xamarin.DeviceInfo.Test.iOS
+namespace Xamarin.DeviceInformation.Test.iOS
 {
     public class Application
     {

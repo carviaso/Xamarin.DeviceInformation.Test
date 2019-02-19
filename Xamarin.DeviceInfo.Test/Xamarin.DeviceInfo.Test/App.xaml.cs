@@ -1,9 +1,9 @@
-﻿using System;
+﻿using System;namespace 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Xamarin.DeviceInfo.Test
+namespace Xamarin.DeviceInformation.Test
 {
     public partial class App : Application
     {
